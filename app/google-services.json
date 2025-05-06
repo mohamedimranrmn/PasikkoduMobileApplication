@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "754225814070",
+    "project_id": "pasikkodu",
+    "storage_bucket": "pasikkodu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754225814070:android:d028b3f2c19ebf0d68d697",
+        "android_client_info": {
+          "package_name": "com.company.pasikkodu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "process.env.GOOGLE_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Pasikkodu",
+    "slug": "pasikkodu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Pasikkodu.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/Pasikkodu.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0c0c0d"
+    },
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Pasikkodu.png",
+        "backgroundColor": "#ffffff"
+      },
+      "newArchEnabled": true,
+      "package": "com.mohamedimranrmn.pasikkodu",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "INTERNET"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyARDo-tbAJdFFLKGavWTpjFcD_gkj9obR8"
+        }
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "server",
+      "favicon": "./assets/images/Pasikkodu.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://pasikkodu.dev/"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": "https://pasikkodu.dev/"
+      },
+      "eas": {
+        "projectId": "920eaf34-9945-469b-8ffe-e7ebca755cea"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+
+    "updates": {
+      "url": "https://u.expo.dev/920eaf34-9945-469b-8ffe-e7ebca755cea"
+    }
+  }
+}
